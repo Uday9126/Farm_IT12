@@ -1,0 +1,63 @@
+.farm-list-container {
+    padding: 20px;
+  }
+  
+  .farm-list-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .farm-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .farm-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    background-color:white;
+  }
+  
+  .farm-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .invest-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .invest-button:hover {
+    background-color: #218838;
+  }
+  .loan-list-titlefarm{
+    color: #060000;
+    }
+    .AFHB{
+        display: flex;
+        margin-left: 600px;
+    }
+    .AallLoanbut1{
+        margin-left:450px;
+        margin-top: 40px;
+        font-size: 20px;
+        border: 2px solid black;
+        background-color:rgb(0, 0, 0) ;
+        border-radius: 5px;
+        color: #fff;
+    
+    }

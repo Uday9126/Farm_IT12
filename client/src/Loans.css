@@ -1,0 +1,122 @@
+LoanList.css
+
+/* Container */
+.loan-list-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  /* Title */
+  .loan-list-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Grid Layout */
+  .loan-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+  }
+  
+  /* Loan Card */
+  .loan-card {
+    background: #ffffff;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  /* Hover Effect */
+  .loan-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Loan Details */
+  .loan-card p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .loan-card strong {
+    color: #2d3748;
+  }
+  
+  .loan-amount {
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .loan-duration {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .loan-interest {
+    font-size: 16px;
+    color: #ff5733;
+  }
+  
+  .loan-purpose {
+    font-style: italic;
+    color: #444;
+  }
+  
+
+
+
+
+  /* LoanList.css */
+
+/* Loan Status */
+.loan-status {
+    font-weight: bold;
+    margin: 8px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .loan-status.pending {
+    background-color: #ffcc00;
+    color: #000;
+  }
+  
+  .loan-status.invested {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  /* Invest Button */
+  .invest-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .invest-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .invest-button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
